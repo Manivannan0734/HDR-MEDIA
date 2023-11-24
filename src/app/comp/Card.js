@@ -23,61 +23,61 @@ const Card = () => {
    
     <div className={styles.container} >
         <div data-aos="fade-up" className={styles.card} >
-        <Link style={{textDecoration:"none",color:"black"}} href='/couple1' ><h1>MadhavaJothi Swathi</h1></Link>
-            
-           <Image
+        <Link style={{textDecoration:"none",color:"black"}} href='/couple1' ><h1>MadhavaJothi Swathi</h1>  <Image
             alt='loading'
             src={One}
             className={styles.cardimg}
-            />
+            /></Link>
+            
+          
             
         </div>
     
         <div data-aos="fade-up" className={styles.card}>
-        <Link style={{textDecoration:"none", color:"black"}} href='/couple2' ><h1>Vignesh Swathi</h1></Link>
-         
-            <Image
+        <Link style={{textDecoration:"none", color:"black"}} href='/couple2' ><h1>Vignesh Swathi</h1><Image
             alt='loading'
             src={Two}
             className={styles.cardimg}
-            /> 
+            /> </Link>
+         
+            
         </div>
         
         <div data-aos="fade-up" className={styles.card}>
-        <Link style={{textDecoration:"none",color:"black"}} href='/couple3' ><h1>Praveen Rachana</h1></Link>
-        
-        <Image
+        <Link style={{textDecoration:"none",color:"black"}} href='/couple3' ><h1>Praveen Rachana</h1><Image
             alt='loading'
             src={Three}
             className={styles.cardimg}
-            />
+            /></Link>
+        
+        
         </div>
         <div data-aos="fade-up" className={styles.card}>
-        <Link style={{textDecoration:"none",color:"black"}} href='/couple4' ><h1>Jayanth Mahi</h1></Link>
-       
-        <Image
+        <Link style={{textDecoration:"none",color:"black"}} href='/couple4' ><h1>Jayanth Mahi</h1> <Image
             alt='loading'
             src={Four}
             className={styles.cardimg}
-            />
+            /></Link>
+       
+       
         </div>
         <div data-aos="fade-up" className={styles.card}>
-        <Link style={{textDecoration:"none",color:"black"}} href='/couple5' ><h1>Sabari Renuka</h1></Link> 
-        <Image
+        <Link style={{textDecoration:"none",color:"black"}} href='/couple5' ><h1>Sabari Renuka</h1> <Image
             alt='loading'
             src={Five}
             className={styles.cardimg}
-            />
+            /></Link> 
+       
               </div>
         <div data-aos="fade-up" className={styles.card}>
-        <Link style={{textDecoration:"none",color:"black"}} href='/couple6' ><h1>Anadhan Suriya</h1></Link>
-       
-        <Image
+        <Link style={{textDecoration:"none",color:"black"}} href='/couple6' ><h1>Anadhan Suriya</h1><Image
             alt='loading'
             src={Six}
             className={styles.cardimg}
             
-            />
+            /></Link>
+       
+        
              </div>
         
     </div>
