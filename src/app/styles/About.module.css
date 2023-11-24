@@ -1,0 +1,27 @@
+.container{
+    font-family: 'Roboto',monospace;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    background-color: white;
+    color: rgb(0, 0, 0);
+    line-height: 1.5rem;
+}
+.back{
+  background-color: rgb(255, 255, 255);
+  
+}
+  .content{
+    margin-top: 2rem;
+    width: 60%;
+    word-spacing: 10px;
+    
+  }
+  .img{
+    display: flex;
+    justify-content: center;
+    margin-top: 1rem;
+    
+  }
+ 
+  

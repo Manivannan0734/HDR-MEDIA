@@ -1,0 +1,56 @@
+/* Couple1.module.css */
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    justify-content: center;
+    
+  }
+  
+  .a {
+    text-decoration: none;
+    color: black;
+    margin-bottom: 10px;
+  }
+  
+  .imageContainer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .img {
+    width: 500px;
+    height: 450px;
+    object-fit:contain;
+    margin: 10px;
+    box-shadow: 14px 17px 16px 7px rgba(0,0,0,0.59);
+    -webkit-box-shadow: 14px 17px 16px 7px rgba(0,0,0,0.59);
+    -moz-box-shadow: 14px 17px 16px 7px rgba(0,0,0,0.59);
+      
+    border-radius: 8px;
+  }
+  
+  .navigation {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin-top: 20px;
+  }
+  
+  .navigation button {
+    background-color: #fff;
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin: 0 5px;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+  }
+  
+  .navigation button:hover {
+    background-color: #f0f0f0;
+  }
+  

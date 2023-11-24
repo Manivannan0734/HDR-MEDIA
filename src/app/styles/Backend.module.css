@@ -1,0 +1,31 @@
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    font-family: 'Roboto',monospace;
+    height: 2rem;
+  }
+  
+  .card {
+    margin: 10px;
+    padding: 10px;
+    border: 1rem solid #ccc;
+    border-radius: 5px;
+    width:350px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  
+  .card h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .card p {
+    font-size: 18px;
+    margin-bottom: 5px;
+    color: black;
+  }

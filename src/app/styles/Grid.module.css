@@ -1,0 +1,35 @@
+.imgC {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1rem;
+    margin-top: 1rem;
+  }
+  
+  .hor {
+    width: 100%;transition: 0.5s;
+    max-width: 350px;
+    height: auto;
+    border-radius: 10px;
+    object-fit: contain;
+  }
+  
+  .por {
+    width: 100%;transition: 0.5s;
+    max-width: 350px;
+    height: auto;
+    border-radius: 10px;
+    object-fit: contain;
+  }
+
+  
+  @media (min-width: 768px) {
+    .hor {
+      width: calc(33.333% - 1rem); /* Adjust based on your desired column count */
+    }
+  
+    .por {
+      width: calc(33.333% - 1rem); /* Adjust based on your desired column count */
+    }
+  }
+  

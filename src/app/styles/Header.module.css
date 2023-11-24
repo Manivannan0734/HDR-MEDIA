@@ -1,0 +1,10 @@
+.container{
+    display: flex;
+    justify-content: center;
+    margin-top: 5rem;
+}
+.heading{
+    text-align: center;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    
+}
