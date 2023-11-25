@@ -41,9 +41,10 @@
   }
   
   .navigation button {
-    background-color: #fff;
+    background-color: #000000;
     border: 1px solid #ccc;
     padding: 10px;
+    color: white;
     margin: 0 5px;
     cursor: pointer;
     border-radius: 5px;
@@ -51,6 +52,6 @@
   }
   
   .navigation button:hover {
-    background-color: #f0f0f0;
+   background-color: #ff0000;
   }
   
